@@ -1,0 +1,12 @@
+name: build and deploye
+
+on:
+   push:
+         branches:
+                  -main
+
+
+env:
+   CI : false
+
+
